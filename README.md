@@ -1,6 +1,6 @@
 # Atlas Theme for [Logseq](http://logseq.com)
 
-> A dark theme for [Logseq](http://logseq.com).
+> A clean theme for [Logseq](http://logseq.com).
 
 ![Screenshot](./screenshot.png)
 
