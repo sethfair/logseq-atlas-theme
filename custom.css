@@ -1,0 +1,107 @@
+a {
+    color: #337ab7;
+}
+
+#sidebar-nav-wrapper {
+    background-color: #182026;
+   
+   }
+
+#sidebar-nav-wrapper  a, #left-menu, #search-button {
+    font-size: 13px;
+    font-kerning: auto;
+    color: hsl(204,20%,45%);
+}
+   
+#sidebar-nav-wrapper a:hover {
+    background-color: #10161A;
+    color: #F5F8FA;
+}
+
+input[type="checkbox"]{
+    border-radius: 2px;
+    border: 1px solid #A7B6C2;
+    background: #ffffff;
+}
+
+.color-level {
+    background: none;
+    font-size: 14px;
+}
+
+.color-level .blocks-container {
+   background-color: hsl(204,33%,97%);
+   padding: 5px 0;
+}
+
+.color-level .blocks-container .pr-2 {
+    font-size: 13px;
+}
+
+.blocks-container .block-parents a, .blocks-container a.opacity-70 {
+    opacity: 1;
+}
+
+.blocks-container .page-reference div {
+    opacity: 1;
+}
+
+.bullet-container .bullet {
+    background-color: #394B59;
+}
+
+div.flex.flex-col a.page-ref {
+    color:#106BA3;
+    filter: contrast(100%);
+}
+
+a.page-ref:hover {
+    color:#106BA3;
+    filter: contrast(100%);
+    text-decoration:underline;
+}
+
+.references-blocks .page-reference:hover {
+    background: none;
+}
+
+
+h1.title {
+    font-weight: 500;
+    text-decoration: none;
+    font-size:36px;
+    
+}
+
+a.tag:hover {
+    color: #A7b6c2;
+    text-decoration: underline;
+}
+
+a.marker-switch {
+    display: none;
+}
+
+
+h1, h2, h3, h4, h5, h6, h7, h8 {
+    opacity:1;
+    color:black;
+}
+
+.tippy-tooltip {
+    background-color: hsl(204,33%,97%);
+    border: 1px solid #ccc;
+}
+
+.tippy-wrapper {
+    background-color: #ffffff;
+    
+}
+
+#main-content-container {
+    font-family: Segoe UI,Roboto,sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: rgba(68,68,68,1);
+    letter-spacing: .002em;
+}
