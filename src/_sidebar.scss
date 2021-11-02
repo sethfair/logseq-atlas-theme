@@ -1,5 +1,10 @@
 #sidebar-nav-wrapper {
-    background-color: #182026;  
+    background-color: #182026; 
+    
+    &.cp__sidebar-left-layout:before {
+        background-color: #182026; 
+        text-align: initial;
+    }
 
     a {
         font-size: 13px;

@@ -13,6 +13,10 @@ body div.flex.flex-row.justify-between a {
 #sidebar-nav-wrapper {
   background-color: #182026;
 }
+#sidebar-nav-wrapper.cp__sidebar-left-layout:before {
+  background-color: #182026;
+  text-align: initial;
+}
 #sidebar-nav-wrapper a {
   font-size: 13px;
   font-kerning: auto;
