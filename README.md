@@ -1,4 +1,4 @@
-![Atlas Image](./icon.png?s=200)
+<img alt="Atlas icon" src="https://raw.githubusercontent.com/sethfair/logseq-atlas-theme/main/icon.png" width="200" height="200">
 
 # Atlas Theme for [Logseq](http://logseq.com)
 
