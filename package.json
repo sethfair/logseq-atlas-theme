@@ -1,6 +1,6 @@
 {
-  "name": "Atlas Theme",
-  "version": "0.0.2",
+  "name": "logseq-atlas-theme",
+  "version": "0.0.3",
   "description": "Clean theme for Logseq.",
   "author": "sethfair",
   "repo": "sethfair/logseq-atlas-theme",
@@ -14,6 +14,13 @@
       }
     ],
     "icon": "./icon.png",
-    "id": "_6bdlwm1cp"
+    "id": "sf_atlas_theme"
+  },
+  "scripts": {
+    "build": "npx sass src/main.scss custom.css --no-source-map",
+    "watch": "npx sass src/main.scss custom.css --no-source-map --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.43.4"
   }
 }

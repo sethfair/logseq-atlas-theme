@@ -1,0 +1,73 @@
+@import "fonts.scss";
+@import "root.scss";
+@import "sidebar.scss";
+@import "views.scss";
+@import "headings.scss";
+@import "blocks.scss";
+@import "embed.scss";
+@import "miscs.scss";
+@import "popups.scss";
+@import "queries.scss";
+@import "markers.scss";
+@import "graph.scss";
+@import "theme_dark.scss";
+@import "theme_light.scss";
+@import "SETTINGS.scss";
+
+
+input[type="checkbox"]{
+    border-radius: 2px;
+    border: 1px solid #A7B6C2;
+    background: #ffffff;
+}
+
+.color-level {
+    background: none;
+    font-size: 14px;
+    
+    .blocks-container {
+        background-color: hsl(204,33%,97%);
+        padding: 5px 0;
+
+        .pr-2 {
+            font-size: 13px;
+        }
+
+        .block-parents a, a.opacity-70 {
+            opacity: 1;
+        }
+
+        .page-reference div {
+            opacity: 1;
+        }
+    }
+}
+
+div.flex.flex-col a.page-ref {
+    color:#106BA3;
+    filter: contrast(100%);
+}
+
+
+
+
+
+
+a.tag:hover {
+    color: #A7b6c2;
+    text-decoration: underline;
+}
+
+a.marker-switch {
+    display: none;
+}
+
+.tippy-tooltip {
+    background-color: hsl(204,33%,97%);
+    border: 1px solid #ccc;
+}
+
+.tippy-wrapper {
+    background-color: #ffffff;
+    
+}
