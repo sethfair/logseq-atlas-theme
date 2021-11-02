@@ -2,11 +2,15 @@
 
 # Atlas Theme for [Logseq](http://logseq.com)
 
-> A clean theme for [Logseq](http://logseq.com).
+> A clean theme for Logseq.
 
 ![Screenshot](./screenshot.png)
 
-## Install
+## Install by copying
+1. Copy the contents in https://raw.githubusercontent.com/sethfair/logseq-atlas-theme/main/custom.css
+2. Paste the contents in your custom.css
+
+## Install as a Plugin
 * download from github to a local directory
 * turn on developer mode
   * click the three dots in the upper right corner
