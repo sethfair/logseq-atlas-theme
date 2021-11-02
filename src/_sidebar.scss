@@ -1,7 +1,7 @@
 #sidebar-nav-wrapper {
     background-color: #182026;  
 
-    a, #search-button {
+    a {
         font-size: 13px;
         font-kerning: auto;
         color: hsl(204,20%,45%);
@@ -10,5 +10,9 @@
     a:hover {
         background-color: #10161A;
         color: #F5F8FA;
+    }
+
+    #left-menu {
+        opacity: 1;
     }
 }

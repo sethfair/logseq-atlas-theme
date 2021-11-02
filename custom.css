@@ -13,7 +13,7 @@ body div.flex.flex-row.justify-between a {
 #sidebar-nav-wrapper {
   background-color: #182026;
 }
-#sidebar-nav-wrapper a, #sidebar-nav-wrapper #search-button {
+#sidebar-nav-wrapper a {
   font-size: 13px;
   font-kerning: auto;
   color: #5c778a;
@@ -21,6 +21,9 @@ body div.flex.flex-row.justify-between a {
 #sidebar-nav-wrapper a:hover {
   background-color: #10161A;
   color: #F5F8FA;
+}
+#sidebar-nav-wrapper #left-menu {
+  opacity: 1;
 }
 
 h1.title {
@@ -48,12 +51,6 @@ a.page-ref:hover {
   background: none;
 }
 
-input[type=checkbox] {
-  border-radius: 2px;
-  border: 1px solid #A7B6C2;
-  background: #ffffff;
-}
-
 .color-level {
   background: none;
   font-size: 14px;
@@ -72,6 +69,12 @@ input[type=checkbox] {
   opacity: 1;
 }
 
+input[type=checkbox] {
+  border-radius: 2px;
+  border: 1px solid #A7B6C2;
+  background: #ffffff;
+}
+
 div.flex.flex-col a.page-ref {
   color: #106BA3;
   filter: contrast(100%);
@@ -84,6 +87,12 @@ a.tag:hover {
 
 a.marker-switch {
   display: none;
+}
+
+#head a, #head #search-button {
+  font-size: 13px;
+  font-kerning: auto;
+  color: #5c778a;
 }
 
 .tippy-tooltip {

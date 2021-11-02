@@ -7,3 +7,25 @@ a.page-ref:hover {
 .references-blocks .page-reference:hover {
     background: none;
 }
+
+.color-level {
+    background: none;
+    font-size: 14px;
+    
+    .blocks-container {
+        background-color: hsl(204,33%,97%);
+        padding: 5px 0;
+
+        .pr-2 {
+            font-size: 13px;
+        }
+
+        .block-parents a, a.opacity-70 {
+            opacity: 1;
+        }
+
+        .page-reference div {
+            opacity: 1;
+        }
+    }
+}
