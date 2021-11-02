@@ -1,4 +1,4 @@
-![Atlas Image](./icon.png)
+![Atlas Image](./icon.png?s=200)
 
 # Atlas Theme for [Logseq](http://logseq.com)
 
