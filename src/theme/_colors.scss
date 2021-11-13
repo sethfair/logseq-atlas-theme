@@ -23,6 +23,9 @@ html[data-theme=light] {
   --ls-table-tr-even-background-color: var(--ct-tertiary-color);
   --ls-page-properties-background-color: var(--ct-tertiary-color);
 
+  --ls-page-blockquote-border-color: var(--ct-primary-color);
+  --ls-page-blockquote-bg-color: #FFFFFF;
+
   /* == Text == */
   --ls-primary-text-color: #444444;
   --ls-secondary-text-color: var(--ct-secondary-color);

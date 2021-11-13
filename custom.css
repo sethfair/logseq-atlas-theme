@@ -20,6 +20,8 @@ html[data-theme=light] {
   --ls-quaternary-background-color: var(--ct-primary-hover-color);
   --ls-table-tr-even-background-color: var(--ct-tertiary-color);
   --ls-page-properties-background-color: var(--ct-tertiary-color);
+  --ls-page-blockquote-border-color: var(--ct-primary-color);
+  --ls-page-blockquote-bg-color: #FFFFFF;
   /* == Text == */
   --ls-primary-text-color: #444444;
   --ls-secondary-text-color: var(--ct-secondary-color);
@@ -180,9 +182,33 @@ html[data-theme=light] h1.title {
   text-decoration: none;
   font-size: 36px;
 }
-.white-theme .cp__plugins-page .ui__button,
-html[data-theme=light] .cp__plugins-page .ui__button {
+.white-theme .cp__plugins-page .ui__button, .white-theme .cp__settings-inner > aside ul > li.active, .white-theme blockquote,
+html[data-theme=light] .cp__plugins-page .ui__button,
+html[data-theme=light] .cp__settings-inner > aside ul > li.active,
+html[data-theme=light] blockquote {
   background-color: var(--ct-tertiary-color) !important;
+}
+.white-theme .cp__settings-inner > aside ul > li > a,
+html[data-theme=light] .cp__settings-inner > aside ul > li > a {
+  background: none;
+}
+.white-theme .keyboard-shortcut > code,
+html[data-theme=light] .keyboard-shortcut > code {
+  color: #ffffff;
+}
+.white-theme .cp__themes-installed > .it,
+html[data-theme=light] .cp__themes-installed > .it {
+  background: none;
+}
+.white-theme .cp__themes-installed > .it.is-active,
+html[data-theme=light] .cp__themes-installed > .it.is-active {
+  background-color: var(--ct-tertiary-color);
+  border: none;
+}
+.white-theme .cp__settings-app-updater .update-state,
+html[data-theme=light] .cp__settings-app-updater .update-state {
+  background-color: var(--ct-tertiary-color);
+  color: var(--ct-primary-color);
 }
 
 #sidebar-nav-wrapper.cp__sidebar-left-layout:before {

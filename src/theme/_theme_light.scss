@@ -135,7 +135,30 @@ html[data-theme="light"] {
     font-size:36px;
   }
 
-  .cp__plugins-page .ui__button {
+  .cp__plugins-page .ui__button, .cp__settings-inner>aside ul>li.active, blockquote{
     background-color: var(--ct-tertiary-color) !important;
   }
+
+  .cp__settings-inner>aside ul>li>a {
+    background: none;
+  }
+
+  .keyboard-shortcut>code {
+    color: #ffffff;
+  }
+
+  .cp__themes-installed>.it {
+    background: none;
+  }
+
+  .cp__themes-installed>.it.is-active {
+    background-color: var(--ct-tertiary-color);
+    border: none;
+  }
+
+  .cp__settings-app-updater .update-state {
+    background-color: var(--ct-tertiary-color);
+    color: var(--ct-primary-color)
+  }
+
 }
