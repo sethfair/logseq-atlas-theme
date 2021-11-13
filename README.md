@@ -1,10 +1,11 @@
-<img alt="Atlas icon" src="https://raw.githubusercontent.com/sethfair/logseq-atlas-theme/main/icon.png" width="200" height="200">
+<img alt="Atlas icon" src="https://raw.githubusercontent.com/sethfair/logseq-atlas-theme/main/icon.png" width="150" height="150">
 
-# Atlas Theme for [Logseq](http://logseq.com)
-
-> A clean theme for Logseq.
+# Atlas Theme for Logseq
 
 ![Screenshot](./screenshot.png)
+
+## What is Logseq?
+Logseq is a privacy-first, open-source knowledge base.  Visit https://logseq.com/ for more information.
 
 ## Install by copying
 1. Copy the contents in https://raw.githubusercontent.com/sethfair/logseq-atlas-theme/main/custom.css
