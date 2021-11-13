@@ -1,8 +1,5 @@
 #sidebar-nav-wrapper {
-    background-color: #182026; 
-    
     &.cp__sidebar-left-layout:before {
-        background-color: #182026; 
         text-align: initial;
     }
 
@@ -13,7 +10,6 @@
     }
     
     a:hover {
-        background-color: #10161A;
         color: #F5F8FA;
     }
 
