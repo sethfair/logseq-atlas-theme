@@ -210,6 +210,10 @@ html[data-theme=light] .cp__settings-app-updater .update-state {
   background-color: var(--ct-tertiary-color);
   color: var(--ct-primary-color);
 }
+.white-theme .left-sidebar-inner .nav-content-item > .header:hover,
+html[data-theme=light] .left-sidebar-inner .nav-content-item > .header:hover {
+  background-color: var(--ct-primary-hover-color);
+}
 
 #sidebar-nav-wrapper.cp__sidebar-left-layout:before {
   text-align: initial;

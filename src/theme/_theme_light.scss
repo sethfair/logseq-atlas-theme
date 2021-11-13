@@ -161,4 +161,7 @@ html[data-theme="light"] {
     color: var(--ct-primary-color)
   }
 
+  .left-sidebar-inner .nav-content-item>.header:hover {
+    background-color: var(--ct-primary-hover-color);
+  }
 }
