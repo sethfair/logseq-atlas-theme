@@ -134,4 +134,8 @@ html[data-theme="light"] {
     text-decoration: none;
     font-size:36px;
   }
+
+  .cp__plugins-page .ui__button {
+    background-color: var(--ct-tertiary-color) !important;
+  }
 }

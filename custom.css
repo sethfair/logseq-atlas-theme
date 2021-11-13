@@ -184,6 +184,10 @@ html[data-theme=light] h1.title {
   text-decoration: none;
   font-size: 36px;
 }
+.white-theme .cp__plugins-page .ui__button,
+html[data-theme=light] .cp__plugins-page .ui__button {
+  background-color: var(--ct-tertiary-color) !important;
+}
 
 #sidebar-nav-wrapper.cp__sidebar-left-layout:before {
   text-align: initial;
