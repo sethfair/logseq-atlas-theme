@@ -1,0 +1,55 @@
+.white-theme,
+html[data-theme=light] {
+  /* == Backgrounds == */
+  --ct-primary-color: #182026;
+  --ct-primary-hover-color: #10161A;
+  --ct-secondary-color: #5c778a;
+  --ct-tertiary-color: #F5F8FA;
+  --ct-primary-text-color: #24292e;
+  --ct-icon-color: #5c7080;
+
+  --ct-warning-color: #e54d2e;
+  --ct-warning-color-text: white;
+  --ct-success-color: #46a857;
+  --ct-success-color-text: white;
+  --ct-highlight-color: #f4d909;
+  --ct-highlight-color-text: black;
+
+  --ls-link-text-color: var(--ct-primary-text-color);
+  --ls-primary-background-color: #FFFFFF;
+  --ls-secondary-background-color: var(--ct-primary-color);
+  --ls-tertiary-background-color: var(--ct-tertiary-color);
+  --ls-quaternary-background-color: var(--ct-primary-hover-color);
+  --ls-table-tr-even-background-color: var(--ct-tertiary-color);
+  --ls-block-properties-background-color: var(--ct-fpo-color);
+  --ls-page-properties-background-color: var(--ct-tertiary-color);
+  --ls-slide-background-color: var(--ct-fpo-color);
+  --ls-selection-background-color: var(--ct-fpo-color);
+  --ls-page-blockquote-bg-color: var(--ct-fpo-color);
+  --ls-right-sidebar-code-bg-color: initial;
+  --ls-search-background-color: var(--ct-fpo-color);
+
+  /* == Text == */
+  --ls-primary-text-color: #444444;
+  --ls-secondary-text-color: var(--ct-secondary-color);
+
+  /* == Checkboxes */
+  --ls-page-checkbox-color: #ffffff;
+  --ls-page-checkbox-border-color: var(--ct-secondary-color);
+  /* == Borders + Outlines */
+  --ls-border-color: var(--ct-primary-color);
+  --ls-guideline-color: rgba(46, 27, 5, 0.08);
+
+  /* == Misc == */
+  --ls-menu-hover-color: var(--ct-tertiary-color);
+  --ls-title-text-color: var(--ct-primary-color);
+  --ls-block-highlight-color: var(--ct-tertiary-color);
+  --ls-icon-color: var(--ct-icon-color);
+  --ls-search-icon-color: var(--ct-icon-color);
+  --color-level-1: var(--ls-secondary-background-color);
+  --color-level-2: var(--ls-tertiary-background-color);
+  --color-level-3: var(--ls-quaternary-background-color);
+  --color-level-4: var(--cd-fifth-bg-color);
+  --color-level-5: var(--cd-sixth-bg-color);
+  --color-level-6: #3a7e8e;
+}
