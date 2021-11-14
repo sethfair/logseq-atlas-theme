@@ -11,7 +11,7 @@ html[data-theme=light] {
   --ct-warning-color-text: white;
   --ct-success-color: #46a857;
   --ct-success-color-text: white;
-  --ct-highlight-color: #f4d909;
+  --ct-highlight-color: rgba(255,255,60,.4);
   --ct-highlight-color-text: black;
   --ls-link-text-color: var(--ct-primary-text-color);
   --ls-primary-background-color: #FFFFFF;
@@ -217,6 +217,37 @@ html[data-theme=light] .left-sidebar-inner .nav-content-item > .header:hover {
 .white-theme #main-content input.form-checkbox:checked,
 html[data-theme=light] #main-content input.form-checkbox:checked {
   background-color: var(--ls-page-checkbox-border-color);
+}
+.white-theme #journals .fade-link,
+html[data-theme=light] #journals .fade-link {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: var(--ct-secondary-color);
+}
+.white-theme #journals .fade-link:before,
+html[data-theme=light] #journals .fade-link:before {
+  font-family: tabler-icons;
+  color: var(--ct-secondary-color);
+  content: "\ea1a";
+}
+.white-theme mark,
+html[data-theme=light] mark {
+  background: var(--ct-highlight-color);
+}
+
+.dark-theme #main-content-container,
+html[data-theme=dark] #main-content-container {
+  background-color: #10161b;
+}
+.dark-theme .left-sidebar-inner a.item, .dark-theme .left-sidebar-inner .nav-content-item > .bd ul a,
+html[data-theme=dark] .left-sidebar-inner a.item,
+html[data-theme=dark] .left-sidebar-inner .nav-content-item > .bd ul a {
+  color: var(--ls-secondary-text-color);
+}
+.dark-theme .color-level .blocks-container,
+html[data-theme=dark] .color-level .blocks-container {
+  background-color: rgba(24, 32, 38, 0.25);
+  border: 1px solid var(--ct-primary-color);
 }
 
 #sidebar-nav-wrapper.cp__sidebar-left-layout:before {

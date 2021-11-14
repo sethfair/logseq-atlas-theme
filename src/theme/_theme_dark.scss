@@ -1,0 +1,15 @@
+.dark-theme,
+html[data-theme="dark"] {
+
+  #main-content-container {
+    background-color: #10161b;
+  }
+  .left-sidebar-inner a.item, .left-sidebar-inner .nav-content-item>.bd ul a{
+    color: var(--ls-secondary-text-color);
+  }
+
+  .color-level .blocks-container {
+    background-color: rgb(24 32 38 / 25%);
+    border: 1px solid var(--ct-primary-color);
+  }
+}
