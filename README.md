@@ -1,8 +1,8 @@
-<img alt="Atlas icon" src="https://raw.githubusercontent.com/sethfair/logseq-atlas-theme/main/icon.png" width="150" height="150">
-
-# Atlas Theme for Logseq
-
 ![Screenshot](./screenshot.png)
+
+## Atlas Theme for Logseq
+
+<img alt="Atlas icon" src="https://raw.githubusercontent.com/sethfair/logseq-atlas-theme/main/icon.png" width="150" height="150">
 
 ## What is Logseq?
 Logseq is a privacy-first, open-source knowledge base.  Visit https://logseq.com/ for more information.
