@@ -165,7 +165,7 @@ html[data-theme="light"] {
     background-color: var(--ct-primary-hover-color);
   }
 
-  .done input.form-checkbox:checked {
+  #main-content input.form-checkbox:checked {
     background-color: var(--ls-page-checkbox-border-color);
   }
 }

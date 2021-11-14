@@ -214,8 +214,8 @@ html[data-theme=light] .cp__settings-app-updater .update-state {
 html[data-theme=light] .left-sidebar-inner .nav-content-item > .header:hover {
   background-color: var(--ct-primary-hover-color);
 }
-.white-theme .done input.form-checkbox:checked,
-html[data-theme=light] .done input.form-checkbox:checked {
+.white-theme #main-content input.form-checkbox:checked,
+html[data-theme=light] #main-content input.form-checkbox:checked {
   background-color: var(--ls-page-checkbox-border-color);
 }
 
