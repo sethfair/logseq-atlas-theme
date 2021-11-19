@@ -218,6 +218,10 @@ html[data-theme=dark] .content .selected {
   background-color: var(--ls-block-properties-background-color);
   border: none;
 }
+.dark-theme .search-results-wrap a:hover,
+html[data-theme=dark] .search-results-wrap a:hover {
+  color: #ffffff;
+}
 
 .white-theme #main-content-container,
 html[data-theme=light] #main-content-container {

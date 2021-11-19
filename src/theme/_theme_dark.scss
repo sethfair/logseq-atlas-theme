@@ -150,4 +150,8 @@ html[data-theme="dark"] {
     background-color: var(--ls-block-properties-background-color);
     border: none;
   }
+
+  .search-results-wrap a:hover {
+    color: #ffffff;
+  }
 }
