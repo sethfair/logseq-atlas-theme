@@ -199,6 +199,13 @@ html[data-theme=dark] .cp__all_pages .search-wrap .ui__button {
 html[data-theme=dark] .cp__themes-installed > .it.is-active {
   color: var(--ct-primary-color);
 }
+.dark-theme .logseq-focus-toolbar a.button.active, .dark-theme .logseq-focus-toolbar a.button:hover, .dark-theme .cp__header a.button.active, .dark-theme .cp__header a.button:hover,
+html[data-theme=dark] .logseq-focus-toolbar a.button.active,
+html[data-theme=dark] .logseq-focus-toolbar a.button:hover,
+html[data-theme=dark] .cp__header a.button.active,
+html[data-theme=dark] .cp__header a.button:hover {
+  color: var(--ct-primary-color);
+}
 
 .white-theme #main-content-container,
 html[data-theme=light] #main-content-container {

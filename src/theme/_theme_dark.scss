@@ -134,4 +134,9 @@ html[data-theme="dark"] {
     color: var(--ct-primary-color)
   }
 
+  .logseq-focus-toolbar, .cp__header {
+    a.button.active, a.button:hover {
+      color: var(--ct-primary-color)
+    }
+  }
 }
