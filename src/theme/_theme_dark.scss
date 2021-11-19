@@ -1,15 +1,100 @@
 .dark-theme,
 html[data-theme="dark"] {
+  --ls-primary-background-color: #121a1f;
+  --ct-primary-text-color: rgba(250, 250, 250, 0.80 );;
+  --ls-title-text-color: #ffffff;
+  --ls-link-ref-text-color: #ffffff;
+  --ls-primary-text-color: var(--ct-primary-text-color);
+  --ls-link-text-color: var(--ct-secondary-color);
+  --ls-guideline-color: rgba(250, 250, 250, 0.25);
+  --ls-table-tr-even-background-color: rgba(250, 250, 250, 0.01);
+
+  --ls-block-bullet-color: #ffffff;
+  --ls-block-bullet-border-color: var(--ls-guideline-color);
+
+  --ls-scrollbar-foreground-color: rgba(0, 0, 0, 0.1);
+  --ls-scrollbar-background-color: rgba(0, 0, 0, 0.05);
+  --ls-scrollbar-thumb-hover-color: rgba(0, 0, 0, 0.2);
+
+  .page-properties {
+    background-color: rgba(133, 164, 191, 0.05);
+  }
+
 
   #main-content-container {
-    background-color: #10161b;
+    font-family: Segoe UI,Roboto,sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: .002em;
   }
+
+  .blocks-container {
+    padding: 10px;
+    .pr-2 {
+      font-size: 13px;
+    }
+  }
+
   .left-sidebar-inner a.item, .left-sidebar-inner .nav-content-item>.bd ul a{
     color: var(--ls-secondary-text-color);
   }
 
   .color-level .blocks-container {
-    background-color: rgb(24 32 38 / 25%);
+    background-color: rgba(133, 164, 191, 0.05);
+  }
+
+  a.page-ref, a.external-link {
+    border-bottom: 1px dashed rgba(256, 256, 256, 0.25);
+  }
+
+  .color-level {
+    background: none;
+  }
+
+  .cp__sidebar-left-layout {
+    background-color: var(--ct-primary-color);
+  }
+
+  .cp__plugins-item-lists .cp__plugins-item-card {
+    background-color: transparent;
     border: 1px solid var(--ct-primary-color);
+  }
+
+  .cp__plugins-page .tabs .ui__button.active>span {
+    color:  var(--ct-primary-color);
+  }
+
+  .menu-link:hover, button.menu:focus, button.pull:hover{
+    color:  var(--ct-primary-color);
+  }
+  tr:nth-child(even), tr:nth-child(even) a {
+    //color:  var(--ct-primary-color);
+  }
+
+  #main-content input.form-checkbox:checked {
+    background-color: var(--ls-page-checkbox-border-color);
+  }
+
+  .page-properties {
+    font-size: 13px;
+    line-height: 2.2em;
+
+    .page-property-key {
+      color:var(--ct-primary-text-color)
+    }
+  }
+
+  a.page-ref, a.external-link {
+    color: var(--ct-primary-text-color);
+    border-bottom: 1px dashed rgba(36, 41, 46, 0.25);
+  }
+
+  a.page-ref:hover, a.external-link:hover {
+    border-bottom: 1px dashed rgba(36, 41, 46, 1);
+  }
+
+  a.external-link:before {
+    font-family: tabler-icons!important;
+    content: '\ea99';
   }
 }

@@ -1,7 +1,20 @@
-
-
 .white-theme,
 html[data-theme="light"] {
+
+
+  #main-content-container {
+    font-family: Segoe UI,Roboto,sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: .002em;
+  }
+
+  .blocks-container {
+    padding: 10px;
+    .pr-2 {
+      font-size: 13px;
+    }
+  }
 
   .cp__header a {
     color: var(--ls-icon-color);
@@ -167,21 +180,5 @@ html[data-theme="light"] {
 
   #main-content input.form-checkbox:checked {
     background-color: var(--ls-page-checkbox-border-color);
-  }
-
-  #journals .fade-link {
-    font-size: 1.5em;
-    font-weight: 400;
-    color: var(--ct-secondary-color);
-  }
-
-  #journals .fade-link:before {
-    font-family: tabler-icons;
-    color: var(--ct-secondary-color);
-    content: "\ea1a"
-  }
-
-  mark {
-    background: var(--ct-highlight-color);
   }
 }

@@ -1,5 +1,5 @@
 .white-theme,
-html[data-theme=light] {
+html[data-theme=light], .dark-theme, html[data-theme=dark] {
   /* == Backgrounds == */
   --ct-primary-color: #182026;
   --ct-primary-hover-color: #10161A;
@@ -47,6 +47,138 @@ html[data-theme=light] {
   --ls-selection-background-color: rgba(255,255,60,.4);
 }
 
+#sidebar-nav-wrapper.cp__sidebar-left-layout:before {
+  text-align: initial;
+}
+#sidebar-nav-wrapper a {
+  font-size: 13px;
+  font-kerning: auto;
+  color: #5c778a;
+}
+#sidebar-nav-wrapper a:hover {
+  color: #F5F8FA;
+}
+#sidebar-nav-wrapper #left-menu {
+  opacity: 1;
+}
+
+.dark-theme,
+html[data-theme=dark] {
+  --ls-primary-background-color: #121a1f;
+  --ct-primary-text-color: rgba(250, 250, 250, 0.80 );
+  --ls-title-text-color: #ffffff;
+  --ls-link-ref-text-color: #ffffff;
+  --ls-primary-text-color: var(--ct-primary-text-color);
+  --ls-link-text-color: var(--ct-secondary-color);
+  --ls-guideline-color: rgba(250, 250, 250, 0.25);
+  --ls-table-tr-even-background-color: rgba(250, 250, 250, 0.01);
+  --ls-block-bullet-color: #ffffff;
+  --ls-block-bullet-border-color: var(--ls-guideline-color);
+  --ls-scrollbar-foreground-color: rgba(0, 0, 0, 0.1);
+  --ls-scrollbar-background-color: rgba(0, 0, 0, 0.05);
+  --ls-scrollbar-thumb-hover-color: rgba(0, 0, 0, 0.2);
+}
+.dark-theme .page-properties,
+html[data-theme=dark] .page-properties {
+  background-color: rgba(133, 164, 191, 0.05);
+}
+.dark-theme #main-content-container,
+html[data-theme=dark] #main-content-container {
+  font-family: Segoe UI, Roboto, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 0.002em;
+}
+.dark-theme .blocks-container,
+html[data-theme=dark] .blocks-container {
+  padding: 10px;
+}
+.dark-theme .blocks-container .pr-2,
+html[data-theme=dark] .blocks-container .pr-2 {
+  font-size: 13px;
+}
+.dark-theme .left-sidebar-inner a.item, .dark-theme .left-sidebar-inner .nav-content-item > .bd ul a,
+html[data-theme=dark] .left-sidebar-inner a.item,
+html[data-theme=dark] .left-sidebar-inner .nav-content-item > .bd ul a {
+  color: var(--ls-secondary-text-color);
+}
+.dark-theme .color-level .blocks-container,
+html[data-theme=dark] .color-level .blocks-container {
+  background-color: rgba(133, 164, 191, 0.05);
+}
+.dark-theme a.page-ref, .dark-theme a.external-link,
+html[data-theme=dark] a.page-ref,
+html[data-theme=dark] a.external-link {
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.25);
+}
+.dark-theme .color-level,
+html[data-theme=dark] .color-level {
+  background: none;
+}
+.dark-theme .cp__sidebar-left-layout,
+html[data-theme=dark] .cp__sidebar-left-layout {
+  background-color: var(--ct-primary-color);
+}
+.dark-theme .cp__plugins-item-lists .cp__plugins-item-card,
+html[data-theme=dark] .cp__plugins-item-lists .cp__plugins-item-card {
+  background-color: transparent;
+  border: 1px solid var(--ct-primary-color);
+}
+.dark-theme .cp__plugins-page .tabs .ui__button.active > span,
+html[data-theme=dark] .cp__plugins-page .tabs .ui__button.active > span {
+  color: var(--ct-primary-color);
+}
+.dark-theme .menu-link:hover, .dark-theme button.menu:focus, .dark-theme button.pull:hover,
+html[data-theme=dark] .menu-link:hover,
+html[data-theme=dark] button.menu:focus,
+html[data-theme=dark] button.pull:hover {
+  color: var(--ct-primary-color);
+}
+.dark-theme #main-content input.form-checkbox:checked,
+html[data-theme=dark] #main-content input.form-checkbox:checked {
+  background-color: var(--ls-page-checkbox-border-color);
+}
+.dark-theme .page-properties,
+html[data-theme=dark] .page-properties {
+  font-size: 13px;
+  line-height: 2.2em;
+}
+.dark-theme .page-properties .page-property-key,
+html[data-theme=dark] .page-properties .page-property-key {
+  color: var(--ct-primary-text-color);
+}
+.dark-theme a.page-ref, .dark-theme a.external-link,
+html[data-theme=dark] a.page-ref,
+html[data-theme=dark] a.external-link {
+  color: var(--ct-primary-text-color);
+  border-bottom: 1px dashed rgba(36, 41, 46, 0.25);
+}
+.dark-theme a.page-ref:hover, .dark-theme a.external-link:hover,
+html[data-theme=dark] a.page-ref:hover,
+html[data-theme=dark] a.external-link:hover {
+  border-bottom: 1px dashed #24292e;
+}
+.dark-theme a.external-link:before,
+html[data-theme=dark] a.external-link:before {
+  font-family: tabler-icons !important;
+  content: "\ea99";
+}
+
+.white-theme #main-content-container,
+html[data-theme=light] #main-content-container {
+  font-family: Segoe UI, Roboto, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 0.002em;
+}
+.white-theme .blocks-container,
+html[data-theme=light] .blocks-container {
+  padding: 10px;
+}
+.white-theme .blocks-container .pr-2,
+html[data-theme=light] .blocks-container .pr-2 {
+  font-size: 13px;
+}
 .white-theme .cp__header a,
 html[data-theme=light] .cp__header a {
   color: var(--ls-icon-color);
@@ -218,60 +350,7 @@ html[data-theme=light] .left-sidebar-inner .nav-content-item > .header:hover {
 html[data-theme=light] #main-content input.form-checkbox:checked {
   background-color: var(--ls-page-checkbox-border-color);
 }
-.white-theme #journals .fade-link,
-html[data-theme=light] #journals .fade-link {
-  font-size: 1.5em;
-  font-weight: 400;
-  color: var(--ct-secondary-color);
-}
-.white-theme #journals .fade-link:before,
-html[data-theme=light] #journals .fade-link:before {
-  font-family: tabler-icons;
-  color: var(--ct-secondary-color);
-  content: "\ea1a";
-}
-.white-theme mark,
-html[data-theme=light] mark {
-  background: var(--ct-highlight-color);
-}
-
-.dark-theme #main-content-container,
-html[data-theme=dark] #main-content-container {
-  background-color: #10161b;
-}
-.dark-theme .left-sidebar-inner a.item, .dark-theme .left-sidebar-inner .nav-content-item > .bd ul a,
-html[data-theme=dark] .left-sidebar-inner a.item,
-html[data-theme=dark] .left-sidebar-inner .nav-content-item > .bd ul a {
-  color: var(--ls-secondary-text-color);
-}
-.dark-theme .color-level .blocks-container,
-html[data-theme=dark] .color-level .blocks-container {
-  background-color: rgba(24, 32, 38, 0.25);
-  border: 1px solid var(--ct-primary-color);
-}
-
-#sidebar-nav-wrapper.cp__sidebar-left-layout:before {
-  text-align: initial;
-}
-#sidebar-nav-wrapper a {
-  font-size: 13px;
-  font-kerning: auto;
-  color: #5c778a;
-}
-#sidebar-nav-wrapper a:hover {
-  color: #F5F8FA;
-}
-#sidebar-nav-wrapper #left-menu {
-  opacity: 1;
-}
 
 body {
   color: var(--ct-primary-text-color);
-}
-
-#main-content-container {
-  font-family: Segoe UI, Roboto, sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-  letter-spacing: 0.002em;
 }

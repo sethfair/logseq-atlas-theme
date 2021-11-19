@@ -26,7 +26,7 @@ Logseq is a privacy-first, open-source knowledge base.  Visit https://logseq.com
 * activate theme
   * click the three dots in the upper right corner
   * click on themes
-  * select Atlas Theme / Light
+  * select Atlas Theme: Light or Atlas Theme: Dark
 
 ## License
 

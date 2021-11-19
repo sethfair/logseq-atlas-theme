@@ -1,15 +1,8 @@
 @import "colors";
-@import "theme_light";
-@import "theme_dark";
 @import "sidebar";
+@import "theme_dark";
+@import "theme_light";
 
 body {
   color: var(--ct-primary-text-color);
-}
-
-#main-content-container {
-  font-family: Segoe UI,Roboto,sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-  letter-spacing: .002em;
 }

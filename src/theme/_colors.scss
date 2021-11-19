@@ -1,5 +1,5 @@
 .white-theme,
-html[data-theme=light] {
+html[data-theme=light], .dark-theme, html[data-theme=dark] {
   /* == Backgrounds == */
   --ct-primary-color: #182026;
   --ct-primary-hover-color: #10161A;
