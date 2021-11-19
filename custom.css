@@ -64,6 +64,8 @@ html[data-theme=light], .dark-theme, html[data-theme=dark] {
 
 .dark-theme,
 html[data-theme=dark] {
+  --ct-highlight-color: rgba(255, 255, 41, 0.7);
+  --ls-selection-background-color: var(--ct-highlight-color);
   --ls-primary-background-color: #121a1f;
   --ct-primary-text-color: rgba(250, 250, 250, 0.80 );
   --ls-title-text-color: #ffffff;
@@ -78,6 +80,10 @@ html[data-theme=dark] {
   --ls-scrollbar-foreground-color: rgba(0, 0, 0, 0.1);
   --ls-scrollbar-background-color: rgba(0, 0, 0, 0.05);
   --ls-scrollbar-thumb-hover-color: rgba(0, 0, 0, 0.2);
+}
+.dark-theme ::selection,
+html[data-theme=dark] ::selection {
+  color: var(--ct-primary-color);
 }
 .dark-theme .page-properties,
 html[data-theme=dark] .page-properties {
@@ -205,6 +211,12 @@ html[data-theme=dark] .logseq-focus-toolbar a.button:hover,
 html[data-theme=dark] .cp__header a.button.active,
 html[data-theme=dark] .cp__header a.button:hover {
   color: var(--ct-primary-color);
+}
+.dark-theme .block-highlight, .dark-theme .content .selected,
+html[data-theme=dark] .block-highlight,
+html[data-theme=dark] .content .selected {
+  background-color: var(--ls-block-properties-background-color);
+  border: none;
 }
 
 .white-theme #main-content-container,

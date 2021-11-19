@@ -1,6 +1,6 @@
 {
   "name": "logseq-atlas-theme",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Clean theme for Logseq.",
   "author": "sethfair",
   "repo": "sethfair/logseq-atlas-theme",
@@ -19,7 +19,7 @@
       }
     ],
     "icon": "./icon.png",
-    "id": "logseq-atlas-theme"
+    "id": "test-logseq-atlas-theme"
   },
   "scripts": {
     "build": "npx sass src/theme/main.scss custom.css --no-source-map",
