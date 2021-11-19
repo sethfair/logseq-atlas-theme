@@ -19,7 +19,7 @@
       }
     ],
     "icon": "./icon.png",
-    "id": "test-logseq-atlas-theme"
+    "id": "logseq-atlas-theme"
   },
   "scripts": {
     "build": "npx sass src/theme/main.scss custom.css --no-source-map",
