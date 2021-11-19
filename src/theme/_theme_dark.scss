@@ -130,4 +130,8 @@ html[data-theme="dark"] {
     }
   }
 
+  .cp__themes-installed>.it.is-active {
+    color: var(--ct-primary-color)
+  }
+
 }

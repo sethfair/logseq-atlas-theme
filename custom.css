@@ -195,6 +195,10 @@ html[data-theme=dark] .cp__all_pages .search-wrap .ui__button {
   background: transparent !important;
   color: #ffffff;
 }
+.dark-theme .cp__themes-installed > .it.is-active,
+html[data-theme=dark] .cp__themes-installed > .it.is-active {
+  color: var(--ct-primary-color);
+}
 
 .white-theme #main-content-container,
 html[data-theme=light] #main-content-container {
