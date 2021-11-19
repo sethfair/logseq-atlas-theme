@@ -109,7 +109,13 @@ html[data-theme=dark] .color-level .blocks-container {
 .dark-theme a.page-ref, .dark-theme a.external-link,
 html[data-theme=dark] a.page-ref,
 html[data-theme=dark] a.external-link {
-  border-bottom: 1px dashed rgba(255, 255, 255, 0.25);
+  color: var(--ct-primary-text-color);
+  border-bottom: 1px dashed rgba(36, 41, 46, 0.25);
+}
+.dark-theme a.page-ref:hover, .dark-theme a.external-link:hover,
+html[data-theme=dark] a.page-ref:hover,
+html[data-theme=dark] a.external-link:hover {
+  border-bottom: 1px dashed #24292e;
 }
 .dark-theme .color-level,
 html[data-theme=dark] .color-level {

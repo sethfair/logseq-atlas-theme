@@ -44,7 +44,12 @@ html[data-theme="dark"] {
   }
 
   a.page-ref, a.external-link {
-    border-bottom: 1px dashed rgba(256, 256, 256, 0.25);
+    color: var(--ct-primary-text-color);
+    border-bottom: 1px dashed rgba(36, 41, 46, 0.25);
+  }
+
+  a.page-ref:hover, a.external-link:hover {
+    border-bottom: 1px dashed rgba(36, 41, 46, 1);
   }
 
   .color-level {
