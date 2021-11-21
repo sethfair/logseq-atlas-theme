@@ -23,7 +23,8 @@
   },
   "scripts": {
     "build": "npx sass src/theme/main.scss custom.css --no-source-map",
-    "watch": "npx sass src/theme/main.scss custom.css --no-source-map --watch"
+    "watch": "npx sass src/theme/main.scss custom.css --no-source-map --watch",
+    "postversion": "git push && git push --tags"
   },
   "devDependencies": {
     "sass": "^1.43.4"
