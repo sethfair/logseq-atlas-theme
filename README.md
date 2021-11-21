@@ -2,7 +2,7 @@
 
 ## Atlas Theme for Logseq
 
-<img alt="Atlas icon" src="https://raw.githubusercontent.com/sethfair/logseq-atlas-theme/main/icon.png" width="150" height="150">
+Atlas theme provides a pure and distraction-free experience with always a dark sidebar.
 
 ## What is Logseq?
 Logseq is a privacy-first, open-source knowledge base.  Visit https://logseq.com/ for more information.
