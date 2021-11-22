@@ -19,6 +19,10 @@ html[data-theme="dark"] {
   --ls-scrollbar-background-color: rgba(0, 0, 0, 0.05);
   --ls-scrollbar-thumb-hover-color: rgba(0, 0, 0, 0.2);
 
+  --ls-page-blockquote-border-color: transparent;
+  --ls-page-blockquote-bg-color: rgba(0, 0, 0, 0.2);
+  --ls-page-blockquote-color: var(--ct-primary-text-color);
+
   ::selection {
     color: var(--ct-primary-color);
   }
