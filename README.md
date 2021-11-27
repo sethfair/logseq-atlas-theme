@@ -8,7 +8,7 @@ Atlas theme provides a pure and distraction-free experience with always a dark s
 Logseq is a privacy-first, open-source knowledge base.  Visit https://logseq.com/ for more information.
 
 ## Settings
-You can customize the following parametrs in your `custom.css` file to define the font and line height in the main content area.
+You can customize the following parameters in your `custom.css` file to define the font and line height in the main content area.
 ```
 :root {
   --atlas-line-height: 2em;
