@@ -47,7 +47,7 @@ html[data-theme="dark"] {
   .blocks-container {
     padding: 10px;
     .pr-2 {
-      font-size: 13px;
+      font-size: var(--atlas-font-size)
     }
   }
 

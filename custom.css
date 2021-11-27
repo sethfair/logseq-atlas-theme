@@ -1,6 +1,6 @@
 :root {
   --atlas-line-height: 2em;
-  --atlas-font-size: 1.03em;
+  --atlas-font-size: 13px;
 }
 
 .white-theme,
@@ -116,7 +116,7 @@ html[data-theme=dark] .blocks-container {
 }
 .dark-theme .blocks-container .pr-2,
 html[data-theme=dark] .blocks-container .pr-2 {
-  font-size: 13px;
+  font-size: var(--atlas-font-size);
 }
 .dark-theme .left-sidebar-inner a.item, .dark-theme .left-sidebar-inner .nav-content-item > .bd ul a,
 html[data-theme=dark] .left-sidebar-inner a.item,
