@@ -12,7 +12,7 @@ You can customize the following parametrs in your `custom.css` file to define th
 ```
 :root {
   --atlas-line-height: 2em;
-  --atlas-font-size: 1.03em;
+  --atlas-font-size: 0.95em;
 }
 ```
 
