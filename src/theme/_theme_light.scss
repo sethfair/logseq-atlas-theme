@@ -1,6 +1,10 @@
 .white-theme,
 html[data-theme="light"] {
 
+  #main-content-container .editor-wrapper textarea, #main-content-container .block-content-wrapper .inline {
+    line-height: var(--atlas-line-height);
+    font-size: var(--atlas-font-size);
+  }
 
   #main-content-container {
     font-family: Segoe UI,Roboto,sans-serif;

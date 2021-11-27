@@ -1,3 +1,8 @@
+body {
+  --atlas-line-height: 2em;
+  --atlas-font-size: 1.03em;
+}
+
 .white-theme,
 html[data-theme=light], .dark-theme, html[data-theme=dark] {
   /* == Backgrounds == */
@@ -87,6 +92,12 @@ html[data-theme=dark] {
 .dark-theme ::selection,
 html[data-theme=dark] ::selection {
   color: var(--ct-primary-color);
+}
+.dark-theme #main-content-container .editor-wrapper textarea, .dark-theme #main-content-container .block-content-wrapper .inline,
+html[data-theme=dark] #main-content-container .editor-wrapper textarea,
+html[data-theme=dark] #main-content-container .block-content-wrapper .inline {
+  line-height: var(--atlas-line-height);
+  font-size: var(--atlas-font-size);
 }
 .dark-theme .page-properties,
 html[data-theme=dark] .page-properties {
@@ -226,6 +237,12 @@ html[data-theme=dark] .search-results-wrap a:hover {
   color: #ffffff;
 }
 
+.white-theme #main-content-container .editor-wrapper textarea, .white-theme #main-content-container .block-content-wrapper .inline,
+html[data-theme=light] #main-content-container .editor-wrapper textarea,
+html[data-theme=light] #main-content-container .block-content-wrapper .inline {
+  line-height: var(--atlas-line-height);
+  font-size: var(--atlas-font-size);
+}
 .white-theme #main-content-container,
 html[data-theme=light] #main-content-container {
   font-family: Segoe UI, Roboto, sans-serif;
