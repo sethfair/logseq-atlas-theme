@@ -13,6 +13,10 @@ html[data-theme="light"] {
     letter-spacing: .002em;
   }
 
+  #main-content-container h1.title {
+    font-family: var(--atlas-title-font-family);
+  }
+
   .blocks-container {
     padding: 10px;
     .pr-2 {

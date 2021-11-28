@@ -14,6 +14,7 @@ You can customize the following parameters in your `custom.css` file to define t
   --atlas-line-height: 2em;
   --atlas-font-size: 0.95em;
   --atlas-font-family: "Segoe UI,Roboto,sans-serif";
+  --atlas-title-font-family: "Segoe UI,Roboto,sans-serif";
 }
 ```
 

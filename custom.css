@@ -2,6 +2,7 @@
   --atlas-line-height: 2em;
   --atlas-font-size: 0.95em;
   --atlas-font-family: "Segoe UI,Roboto,sans-serif";
+  --atlas-title-font-family: "Segoe UI,Roboto,sans-serif";
 }
 
 .white-theme,
@@ -110,6 +111,10 @@ html[data-theme=dark] #main-content-container {
   font-size: 1em;
   font-weight: 400;
   letter-spacing: 0.002em;
+}
+.dark-theme #main-content-container h1.title,
+html[data-theme=dark] #main-content-container h1.title {
+  font-family: var(--atlas-title-font-family);
 }
 .dark-theme .blocks-container,
 html[data-theme=dark] .blocks-container {
@@ -250,6 +255,10 @@ html[data-theme=light] #main-content-container {
   font-size: 1em;
   font-weight: 400;
   letter-spacing: 0.002em;
+}
+.white-theme #main-content-container h1.title,
+html[data-theme=light] #main-content-container h1.title {
+  font-family: var(--atlas-title-font-family);
 }
 .white-theme .blocks-container,
 html[data-theme=light] .blocks-container {
