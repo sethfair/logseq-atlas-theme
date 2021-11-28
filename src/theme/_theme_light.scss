@@ -7,7 +7,7 @@ html[data-theme="light"] {
   }
 
   #main-content-container {
-    font-family: Segoe UI,Roboto,sans-serif;
+    font-family: var(--atlas-font-family);
     font-size: 1em;
     font-weight: 400;
     letter-spacing: .002em;

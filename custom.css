@@ -1,6 +1,7 @@
 :root {
   --atlas-line-height: 2em;
-  --atlas-font-size: 13px;
+  --atlas-font-size: 0.95em;
+  --atlas-font-family: "Segoe UI,Roboto,sans-serif";
 }
 
 .white-theme,
@@ -105,7 +106,7 @@ html[data-theme=dark] .page-properties {
 }
 .dark-theme #main-content-container,
 html[data-theme=dark] #main-content-container {
-  font-family: Segoe UI, Roboto, sans-serif;
+  font-family: var(--atlas-font-family);
   font-size: 1em;
   font-weight: 400;
   letter-spacing: 0.002em;
@@ -245,7 +246,7 @@ html[data-theme=light] #main-content-container .block-content-wrapper .inline {
 }
 .white-theme #main-content-container,
 html[data-theme=light] #main-content-container {
-  font-family: Segoe UI, Roboto, sans-serif;
+  font-family: var(--atlas-font-family);
   font-size: 1em;
   font-weight: 400;
   letter-spacing: 0.002em;

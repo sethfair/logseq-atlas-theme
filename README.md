@@ -13,6 +13,7 @@ You can customize the following parameters in your `custom.css` file to define t
 :root {
   --atlas-line-height: 2em;
   --atlas-font-size: 0.95em;
+  --atlas-font-family: "Segoe UI,Roboto,sans-serif";
 }
 ```
 
