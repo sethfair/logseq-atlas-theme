@@ -1,8 +1,8 @@
 :root {
   --atlas-line-height: 2em;
   --atlas-font-size: 0.95em;
-  --atlas-font-family: "Segoe UI,Roboto,sans-serif";
-  --atlas-title-font-family: "Segoe UI,Roboto,sans-serif";
+  --atlas-font-family: Segoe UI,Roboto,sans-serif;
+  --atlas-title-font-family: Segoe UI,Roboto,sans-serif;
 }
 
 .white-theme,
@@ -15,9 +15,9 @@ html[data-theme=light], .dark-theme, html[data-theme=dark] {
   --ct-primary-text-color: #24292e;
   --ct-icon-color: #5c7080;
   --ct-warning-color: #e54d2e;
-  --ct-warning-color-text: white;
+  --ct-warning-color-text: var(--ct-primary-color);
   --ct-success-color: #46a857;
-  --ct-success-color-text: white;
+  --ct-success-color-text: var(--ct-primary-color);
   --ct-highlight-color: rgba(255,255,60,.4);
   --ct-highlight-color-text: black;
   --ls-link-text-color: var(--ct-primary-text-color);

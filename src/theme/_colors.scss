@@ -9,9 +9,9 @@ html[data-theme=light], .dark-theme, html[data-theme=dark] {
   --ct-icon-color: #5c7080;
 
   --ct-warning-color: #e54d2e;
-  --ct-warning-color-text: white;
+  --ct-warning-color-text: var(--ct-primary-color);
   --ct-success-color: #46a857;
-  --ct-success-color-text: white;
+  --ct-success-color-text: var(--ct-primary-color);
   --ct-highlight-color: rgba(255,255,60,.4);
   --ct-highlight-color-text: black;
 
