@@ -23,16 +23,16 @@ You can customize the following parameters in your `custom.css` file.
 2. Paste the contents in your custom.css
 
 ## Install as a Plugin
-* **Step 1:** Click on the dots in the upper right corner.
-![Step 1](./install-step-1.png)
-* **Step 2:** Click on Settings
-![Step 2](./install-step-2.png)
-* **Step 3 - 4:** Select the advanced tab then click on developer mode.
-![Step 3 and 4](./install-step-3-4.png)
-* **Step 5:** The previous step will require a restart.  Once you restart, the menu will show a plugin section.  Click on this.
-![Step 5](./install-step-5.png)
-* **Step 6 - 8:** Select the marketplace tab, then click on themes, then click install on the Atlas Theme. Once complete the theme will be installed.
-  ![Step 3 and 4](./install-step-6-7-8.png)
+* **Step 1:** Click on the dots in the upper right corner.<br/>
+<img width=200 alt="screen shot" src="https://raw.githubusercontent.com/sethfair/logseq-atlas-theme/main/install-step-1.png"/>
+* **Step 2:** Click on Settings<br/>
+<img width=200 alt="screen shot" src="https://raw.githubusercontent.com/sethfair/logseq-atlas-theme/main/install-step-2.png"/>
+* **Step 3 - 4:** Select the advanced tab then click on developer mode.<br/
+<img width=500 alt="screen shot" src="https://raw.githubusercontent.com/sethfair/logseq-atlas-theme/main/install-step-3-4.png"/>
+* **Step 5:** The previous step will require a restart.  Once you restart, the menu will show a plugin section.  Click on this.<br/>
+<img width=200 alt="screen shot" src="https://raw.githubusercontent.com/sethfair/logseq-atlas-theme/main/install-step-5.png"/>
+* **Step 6 - 8:** Select the marketplace tab, then click on themes, then click install on the Atlas Theme. Once complete the theme will be installed.<br/>
+<img width=550 alt="screen shot" src="https://raw.githubusercontent.com/sethfair/logseq-atlas-theme/main/install-step-6-7-8.png"/>
 * **Step 9**: You can switch between light and dark mode using the hotkey `t t`.
 
 ## Support
