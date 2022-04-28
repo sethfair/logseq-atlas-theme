@@ -5,6 +5,14 @@
   --atlas-title-font-family: Segoe UI,Roboto,sans-serif;
 }
 
+.cp__plugins-settings-inner .desc-item:hover {
+  background: transparent;
+}
+
+#journals .journal-item {
+  border-top: none;
+}
+
 .white-theme,
 html[data-theme=light], .dark-theme, html[data-theme=dark] {
   /* == Backgrounds == */
@@ -36,7 +44,7 @@ html[data-theme=light], .dark-theme, html[data-theme=dark] {
   --ls-page-checkbox-color: #ffffff;
   --ls-page-checkbox-border-color: var(--ct-secondary-color);
   /* == Borders + Outlines */
-  --ls-border-color: var(--ct-primary-color);
+  --ls-border-color: #586e75;
   --ls-guideline-color: rgba(46, 27, 5, 0.08);
   /* == Misc == */
   --ls-menu-hover-color: var(--ct-tertiary-color);
@@ -241,6 +249,10 @@ html[data-theme=dark] .content .selected {
 .dark-theme .search-results-wrap a:hover,
 html[data-theme=dark] .search-results-wrap a:hover {
   color: #ffffff;
+}
+.dark-theme text-area,
+html[data-theme=dark] text-area {
+  color: var(--ct-primary-text-color);
 }
 
 .white-theme #main-content-container .editor-wrapper textarea, .white-theme #main-content-container .block-content-wrapper .inline,

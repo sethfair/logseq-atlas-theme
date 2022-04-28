@@ -167,4 +167,8 @@ html[data-theme="dark"] {
   .search-results-wrap a:hover {
     color: #ffffff;
   }
+
+  text-area {
+    color: var(--ct-primary-text-color)
+  }
 }
