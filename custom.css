@@ -1,6 +1,6 @@
 :root {
   --atlas-line-height: 2em;
-  --atlas-font-size: 0.95em;
+  --atlas-font-size: 15px;
   --atlas-font-family: Segoe UI,Roboto,sans-serif;
   --atlas-title-font-family: Segoe UI,Roboto,sans-serif;
 }
@@ -11,6 +11,10 @@
 
 #journals .journal-item {
   border-top: none;
+}
+
+.form-checkbox:checked {
+  background-color: var(--ct-secondary-color);
 }
 
 .white-theme,
@@ -39,7 +43,7 @@ html[data-theme=light], .dark-theme, html[data-theme=dark] {
   --ls-page-blockquote-bg-color: #FFFFFF;
   /* == Text == */
   --ls-primary-text-color: #444444;
-  --ls-secondary-text-color: var(--ct-secondary-color);
+  --ls-secondary-text-color: rgba(250,250,250,0.8);
   /* == Checkboxes */
   --ls-page-checkbox-color: #ffffff;
   --ls-page-checkbox-border-color: var(--ct-secondary-color);
@@ -75,6 +79,14 @@ html[data-theme=light], .dark-theme, html[data-theme=dark] {
 }
 #sidebar-nav-wrapper #left-menu {
   opacity: 1;
+}
+
+.left-sidebar-inner a.item:hover, .left-sidebar-inner .nav-content-item .header:hover {
+  background-color: var(--ct-primary-hover-color);
+}
+
+.new-page-link {
+  background-color: var(--ct-primary-hover-color);
 }
 
 .dark-theme,
@@ -131,11 +143,6 @@ html[data-theme=dark] .blocks-container {
 .dark-theme .blocks-container .pr-2,
 html[data-theme=dark] .blocks-container .pr-2 {
   font-size: var(--atlas-font-size);
-}
-.dark-theme .left-sidebar-inner a.item, .dark-theme .left-sidebar-inner .nav-content-item > .bd ul a,
-html[data-theme=dark] .left-sidebar-inner a.item,
-html[data-theme=dark] .left-sidebar-inner .nav-content-item > .bd ul a {
-  color: var(--ls-secondary-text-color);
 }
 .dark-theme .color-level .blocks-container,
 html[data-theme=dark] .color-level .blocks-container {
@@ -284,9 +291,10 @@ html[data-theme=light] .blocks-container .pr-2 {
 html[data-theme=light] .cp__header a {
   color: var(--ls-icon-color);
 }
-.white-theme .left-sidebar-inner a.item, .white-theme .left-sidebar-inner .nav-content-item > .bd ul a,
+.white-theme .left-sidebar-inner a.item, .white-theme .left-sidebar-inner .nav-content-item .bd ul a, .white-theme .left-sidebar-inner .header a,
 html[data-theme=light] .left-sidebar-inner a.item,
-html[data-theme=light] .left-sidebar-inner .nav-content-item > .bd ul a {
+html[data-theme=light] .left-sidebar-inner .nav-content-item .bd ul a,
+html[data-theme=light] .left-sidebar-inner .header a {
   color: var(--ls-secondary-text-color);
 }
 .white-theme .ui__modal-panel,
