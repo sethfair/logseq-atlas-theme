@@ -1,9 +1,10 @@
 {
   "name": "logseq-atlas-theme",
-  "version": "0.2.19",
+  "version": "0.2.20",
   "description": "Clean theme for Logseq.",
   "author": "sethfair",
   "repo": "sethfair/logseq-atlas-theme",
+  "main": "dist/index.html",
   "license": "MIT",
   "logseq": {
     "themes": [
@@ -22,11 +23,31 @@
     "id": "logseq-atlas-theme"
   },
   "scripts": {
-    "build": "npx sass src/theme/main.scss custom.css --no-source-map",
-    "watch": "npx sass src/theme/main.scss custom.css --no-source-map --watch",
+    "theme:build": "npx sass src/theme/main.scss custom.css --no-source-map",
+    "theme:watch": "npx sass src/theme/main.scss custom.css --no-source-map --watch",
+    "plugin:build": "webpack --mode=production",
+    "plugin:watch": "webpack --watch --mode=development",
     "postversion": "git push && git push --tags"
   },
+  "dependencies": {
+    "@logseq/libs": "0.0.10"
+  },
   "devDependencies": {
-    "sass": "^1.43.4"
+    "sass": "^1.43.4",
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-proposal-class-properties": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "@svgr/webpack": "^5.5.0",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "parcel-bundler": "^1.12.5",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
   }
 }
