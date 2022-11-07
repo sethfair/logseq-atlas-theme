@@ -28,7 +28,7 @@ html[data-theme="light"] {
     color: var(--ls-icon-color);
   }
 
-  .left-sidebar-inner a.item, .left-sidebar-inner .nav-content-item>.bd ul a{
+  .left-sidebar-inner a.item, .left-sidebar-inner .nav-content-item .bd ul a, .left-sidebar-inner .header a{
     color: var(--ls-secondary-text-color);
   }
 
