@@ -3,15 +3,6 @@
         text-align: initial;
     }
 
-    a {
-        font-size: 13px;
-        font-kerning: auto;
-        color: hsl(204,20%,45%);
-    }
-    
-    a:hover {
-        color: #F5F8FA;
-    }
 
     #left-menu {
         opacity: 1;
@@ -26,5 +17,17 @@
 }
 
 .new-page-link {
+    color: var(--atlas-sidebar-text-color-hover);
     background-color: var(--ct-primary-hover-color);
+}
+.cp__sidebar-left-layout {
+    a {
+        font-size: 13px;
+        font-kerning: auto;
+        color: var(--atlas-sidebar-text-color) !important;
+    }
+
+    a:hover {
+        color: var(--atlas-sidebar-text-color-hover) !important;
+    }
 }
