@@ -9,6 +9,7 @@
     }
 
 
+
 }
 .left-sidebar-inner {
     a.item:hover, .nav-content-item .header:hover {
@@ -30,4 +31,12 @@
     a:hover {
         color: var(--atlas-sidebar-text-color-hover) !important;
     }
+}
+
+#search-button, #left-menu {
+    color: #fafafa;
+}
+
+#search-button:hover, #left-menu:hover {
+    background-color: var( --ct-primary-hover-color);
 }

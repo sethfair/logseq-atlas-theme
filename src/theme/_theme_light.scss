@@ -1,5 +1,9 @@
 .white-theme,
 html[data-theme="light"] {
+  #search-button, #left-menu {
+    color: #c1c1c1;
+  }
+
 
   #main-content-container .editor-wrapper textarea, #main-content-container .block-content-wrapper .inline {
     line-height: var(--atlas-line-height);
@@ -180,10 +184,6 @@ html[data-theme="light"] {
   .cp__settings-app-updater .update-state {
     background-color: var(--ct-tertiary-color);
     color: var(--ct-primary-color)
-  }
-
-  .left-sidebar-inner .nav-content-item>.header:hover {
-    background-color: var(--ct-primary-hover-color);
   }
 
   #main-content input.form-checkbox:checked {

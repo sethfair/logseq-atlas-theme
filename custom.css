@@ -93,6 +93,14 @@ html[data-theme=light], .dark-theme, html[data-theme=dark] {
   color: var(--atlas-sidebar-text-color-hover) !important;
 }
 
+#search-button, #left-menu {
+  color: #fafafa;
+}
+
+#search-button:hover, #left-menu:hover {
+  background-color: var(--ct-primary-hover-color);
+}
+
 .dark-theme,
 html[data-theme=dark] {
   --ct-highlight-color: rgba(255, 255, 41, 0.7);
@@ -266,6 +274,11 @@ html[data-theme=dark] text-area {
   color: var(--ct-primary-text-color);
 }
 
+.white-theme #search-button, .white-theme #left-menu,
+html[data-theme=light] #search-button,
+html[data-theme=light] #left-menu {
+  color: #c1c1c1;
+}
 .white-theme #main-content-container .editor-wrapper textarea, .white-theme #main-content-container .block-content-wrapper .inline,
 html[data-theme=light] #main-content-container .editor-wrapper textarea,
 html[data-theme=light] #main-content-container .block-content-wrapper .inline {
@@ -454,10 +467,6 @@ html[data-theme=light] .cp__themes-installed > .it.is-active {
 html[data-theme=light] .cp__settings-app-updater .update-state {
   background-color: var(--ct-tertiary-color);
   color: var(--ct-primary-color);
-}
-.white-theme .left-sidebar-inner .nav-content-item > .header:hover,
-html[data-theme=light] .left-sidebar-inner .nav-content-item > .header:hover {
-  background-color: var(--ct-primary-hover-color);
 }
 .white-theme #main-content input.form-checkbox:checked,
 html[data-theme=light] #main-content input.form-checkbox:checked {
