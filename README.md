@@ -15,7 +15,8 @@ You can customize the following parameters in your `custom.css` file.
   --atlas-font-size: 0.95em;
   --atlas-font-family: Segoe UI,Roboto,sans-serif;
   --atlas-title-font-family: Segoe UI,Roboto,sans-serif;
-  --atlas-sidebar-text-color: #5c778a;
+  --atlas-header-text-color: #455461;
+  --atlas-sidebar-text-color: #627789;
   --atlas-sidebar-text-color-hover: #a9bdca;
 }
 ```

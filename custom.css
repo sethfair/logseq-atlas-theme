@@ -44,7 +44,8 @@ html[data-theme=light], .dark-theme, html[data-theme=dark] {
   /* == Text == */
   --ls-primary-text-color: #444444;
   --ls-secondary-text-color: rgba(250,250,250,0.8);
-  --atlas-sidebar-text-color: #5c778a;
+  --atlas-header-text-color: #455461;
+  --atlas-sidebar-text-color: #627789;
   --atlas-sidebar-text-color-hover: #a9bdca;
   /* == Checkboxes */
   --ls-page-checkbox-color: #ffffff;
@@ -99,6 +100,10 @@ html[data-theme=light], .dark-theme, html[data-theme=dark] {
 
 #search-button:hover, #left-menu:hover {
   background-color: var(--ct-primary-hover-color);
+}
+
+.left-sidebar-inner .nav-content-item .header {
+  color: var(--atlas-header-text-color);
 }
 
 .dark-theme,

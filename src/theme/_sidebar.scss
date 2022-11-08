@@ -40,3 +40,7 @@
 #search-button:hover, #left-menu:hover {
     background-color: var( --ct-primary-hover-color);
 }
+
+.left-sidebar-inner .nav-content-item .header {
+    color: var(--atlas-header-text-color);
+}
