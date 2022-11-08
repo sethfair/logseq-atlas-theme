@@ -102,7 +102,7 @@ html[data-theme=light], .dark-theme, html[data-theme=dark] {
   background-color: var(--ct-primary-hover-color);
 }
 
-.left-sidebar-inner .nav-content-item .header {
+.left-sidebar-inner .nav-content-item .header .cp__sidebar-left-layout a {
   color: var(--atlas-header-text-color);
 }
 
